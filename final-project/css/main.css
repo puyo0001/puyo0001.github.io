@@ -184,7 +184,7 @@ nav li {
 }
 
 #btn-hero {
-  padding: 1rem 1em;
+  padding: 1rem;
   margin-top: 0.5rem;
   text-align: center;
   background-color: #c78b07;
@@ -196,7 +196,7 @@ nav li {
 
 #btn-hero:hover,
 #btn-hero:focus {
-  padding: 1rem 1em;
+  padding: 1rem;
   margin-top: 0.5rem;
   text-align: center;
   background-color: #ffe6ac;
@@ -224,7 +224,7 @@ nav li {
 .btn-article {
   display: block;
   text-align: center;
-  padding: 1rem 0.5rem;
+  padding: 1rem;
   margin-top: 0.5rem;
   background-color: #222;
   text-decoration: none;
@@ -235,7 +235,7 @@ nav li {
 
 .btn-article:hover,
 .btn-article:focus {
-  padding: 1rem 1em;
+  padding: 1rem;
   margin-top: 0.5rem;
   text-align: center;
   background-color:#c78b07;
@@ -272,7 +272,7 @@ nav li {
 
 
 #btn-vision {
-  padding: 1rem 1em;
+  padding: 1rem;
   margin-top: 0.5rem;
   text-align: center;
   border:#c78b07 solid 1px;
@@ -285,7 +285,7 @@ nav li {
 
 #btn-vision:hover,
 #btn-vision:focus {
-  padding: 1rem 1em;
+  padding: 1rem;
   margin-top: 0.5rem;
   text-align: center;
   background-color:#c78b07;
