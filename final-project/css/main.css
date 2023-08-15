@@ -61,11 +61,6 @@ p {
 }
 
 
-#search {
-  display: flex;
-  width: 100%;
-}
-
 input {
   width: 100%;
   height: 1.8rem;
@@ -160,7 +155,12 @@ nav li {
   list-style: none;
 }
 
-#search button {
+#search-label {
+  display: flex;
+  width: 100%;
+}
+
+#search-label button {
   border: #c78b07 solid 1px;
 }
 
@@ -178,22 +178,10 @@ nav li {
   background-position: center;
 }
 
-.hero img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-
-
 .black-block {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
 }
-
 
 #btn-hero {
   padding: 1rem 1em;
@@ -417,7 +405,7 @@ footer a {
     width: 100%;
   }
 
-  #search {
+  #search-label {
     display: flex;
     flex-direction: row;
     width: 30%;
