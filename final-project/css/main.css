@@ -172,7 +172,6 @@ nav li {
   aspect-ratio: 3/1;
   display: grid;
   place-items: center;
-  /* background-image: url(/images/main-banner.jpg); */
   background-image: url(https://puyo0001.github.io/final-project/images/main-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -276,7 +275,7 @@ nav li {
 #vision {
   color: #fff;
   display: grid;
-  background-image: url(/images/vision.jpg);
+  background-image: url(https://puyo0001.github.io/final-project/images/vision.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
