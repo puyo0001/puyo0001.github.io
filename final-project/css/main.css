@@ -56,8 +56,8 @@ h4 {
 }
 
 p {
-  font-size: 0.8rem;
-  padding-bottom: 0.5rem;
+  font-size: 0.6rem;
+  padding-bottom: 0.3rem;
 }
 
 
@@ -262,7 +262,7 @@ nav li {
 .services-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 0.8rem;
 }
 
 .services-grid article {
@@ -353,10 +353,13 @@ footer a {
   text-decoration: none;
 }
 
+
+/* DESKTOP STYLING */
+
 @media screen and (min-width: 760px){
 
   h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
   
   h2 {
@@ -368,7 +371,11 @@ footer a {
   }
 
   p {
-    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .wrapper {
+    padding: 1.2rem;
   }
 
   /* Desktop nav styling */
@@ -441,7 +448,6 @@ footer a {
 
   .intro-grid {
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
   }
 
   /* Desktop article button styling */
@@ -554,7 +560,6 @@ footer a {
     grid-area: sch;
   } 
 
-
   textarea {
     height: 8rem;
   }
@@ -562,7 +567,6 @@ footer a {
   button {
     font-size: 1.2rem;
   }
-
 
 
 }
