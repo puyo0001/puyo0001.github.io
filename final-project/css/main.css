@@ -87,7 +87,7 @@ button {
 /* Reusable containers */
 
 .wrapper {
-  padding: 0.5rem;
+  padding: 1rem 0.5rem
 }
 
 .container {
@@ -358,12 +358,6 @@ footer a {
   p {
     font-size: 0.8rem;
   }
-
-  .wrapper {
-    padding: 1.2rem;
-  }
-
-  /* Desktop nav styling */
 
   header {
     padding: 1.2rem;
